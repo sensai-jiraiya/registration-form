@@ -9,6 +9,7 @@
   <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
+  <section>
   <div>
     <h1>Want to go to Mars?</h1>
     <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
@@ -17,7 +18,7 @@
       <legend>Personal details</legend>
       <div>
         <label for="name">Name</label>
-        <input id-"name" name="name" required>
+        <input id="name" name="name" required>
       </div>
       <div>
         <label for="age">Age</label>
@@ -29,11 +30,30 @@
       </div>
       <div>
         <label for="subject">Physical fitness</label>
-        <select id="subject" name"_subject">
+        <select id="subject" name="_subject">
           <option>Super-human</option>
           <option>Fit as a fiddle</option>
           <option>Not terribly strong</option>
           <option>A little couch-potato-y</option>
+        </select>
+      </div>
+      </fieldset>
+      <fieldset>
+        <legend>Mission statement</legend>
+        <div>
+          <label for="details">Why do you want to go to Mars?</label>
+          <textarea id="details" name="message" required></textarea>
+        </div>
+      </fieldset>
+      <div>
+        <button type="submit">Resigter for the trip!</button>
+      </div>
+      <input type="hidden" name="_subject" value="Request to join mission">
+    </form>
+  </div>
+  </section>
+
+
 
 
 </body>
