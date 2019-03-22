@@ -11,11 +11,22 @@ html {
 }
 
 .btn {
-  background-color:#000;
+  background-color: #000;
   color: #fff;
   border-radius: 6px;
 }
 
 h1 {
   border-bottom: 2px solid black;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .pad-left {
+    padding-left: .5em;
+  }
+
+  .pad-right {
+    padding-right: .5em;
+  }
 }
