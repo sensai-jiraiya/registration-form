@@ -9,3 +9,9 @@ html {
 .white {
   background-color: #fff;
 }
+
+.btn {
+  background-color:#000;
+  color: #fff;
+  border-radius: 6px;
+}
